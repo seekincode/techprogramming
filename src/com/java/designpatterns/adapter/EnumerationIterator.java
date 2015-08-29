@@ -17,7 +17,7 @@ public class EnumerationIterator implements Iterator {
 	
 	public boolean hasNext() {
 		return enumer.hasMoreElements();
-	}
+	} 
 
 	public Object next() {
 		return enumer.nextElement();
